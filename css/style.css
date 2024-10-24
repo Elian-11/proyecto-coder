@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(231, 231, 231, 0.897);
+}
+
+h1{
+    color: blueviolet;
+    font-size: 60px;
+}
+
+ul li{
+    color: black;
+    font-size: 25px;
+}
+
+
+
+footer div h4{
+    font-size: 25px;
+}
+
+footer div p{
+    font-size: 25px;
+}
+
+main section p{
+    font-size: 30px;
+    color: rgba(141, 96, 184, 0.822);
+}
+
+.navbar{
+    background-color: blueviolet;
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color: darkmagenta;
+}
+
+
+.navbar-nav{
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 200%;
+}
+
+
+
