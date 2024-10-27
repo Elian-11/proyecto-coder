@@ -103,4 +103,27 @@ main section p{
     margin-right: 20px;
   }
 
+  .text h1{
+    text-shadow: 2px 2px 0px blueviolet;
+    color: whitesmoke;
+  }
+
+  .text p{
+    text-shadow: 1px 1px 0px blueviolet;
+    color: whitesmoke;
+  }
+
+  .boton-text{
+    background-color: blueviolet;
+    border: 2px black;
+    color:rgba(245, 245, 245, 0.877);
+  }
+  
+  .boton-text:hover{
+    background-color: whitesmoke;
+    border: 2px blueviolet;
+    color: blueviolet;
+  }
+
+
  
