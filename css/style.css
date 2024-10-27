@@ -27,6 +27,8 @@ main section p{
     color: rgba(141, 96, 184, 0.822);
 }
 
+
+/* SECCION NAVBAR */
 .navbar{
     background-color: blueviolet;
 }
@@ -56,38 +58,12 @@ main section p{
     color: darkmagenta;
 }
 
+
+/* SECCION INDEX */
 .separacion-cartas{
     column-gap: 30px;
     padding: 10px;
 }
-
-
-.card {
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-  }
-
-.card:hover {
-    transform: scale(1.05);
-  }
-
-.card img {
-    border-radius: 10px 10px 0 0;
-  }
-
-.footer {
-    background-color: darkmagenta;
-    color: #fff;
-  }
-
-.footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-.footer a:hover {
-    text-decoration: underline;
-  }
 
 .hero-section {
     background-image: url('../img/ouija-fondo.jpeg');
@@ -96,11 +72,6 @@ main section p{
     padding: 100px 0;
     text-align: center;
     color: #fff;
-  }
-  
-  .lista-footer{
-    list-style-type: none;
-    margin-right: 20px;
   }
 
   .text h1{
@@ -126,4 +97,84 @@ main section p{
   }
 
 
+
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
+
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.card img {
+    border-radius: 10px 10px 0 0;
+  }
+
+
+  /* SECCION FOOTER */
+.footer {
+    background-color: darkmagenta;
+    color: #fff;
+  }
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+.lista-footer{
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+
+  /* SECCION QUIEN SOY */
+
+  .quien-soy {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .quien-soy h1 {
+    color: #6a1b9a;
+    font-size: 2.5rem;
+  }
+  
+  .quien-soy p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .quien-soy .btn-primary {
+    background-color: #8e24aa;
+    border-color: #8e24aa;
+    
+  }
+  
+  .quien-soy .btn-primary:hover {
+    background-color: whitesmoke;
+    color: #8e24aa;
+  }
+
+  .p-frecuentes{
+    background-color: mediumpurple;
+  }
+  .p-frecuentes h3{
+    color: whitesmoke;
+  }
+  .accordion-body{
+    background-color: whitesmoke;
+    color:rgba(141, 96, 184, 0.822) ;
+  }
+  .accordion-button{
+    color: #8e24aa;
+    background-color: whitesmoke;
+  }
  

@@ -4,95 +4,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Euphoria+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
     <title>CosasDeBrujas QuienSoy</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <a class="navbar-brand" href="../index.html">CosasDeBrujas</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/quiensoy.html">QuienSoy</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Más
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../pages/cursos.html">Cursos</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header class="navbar navbar-expand-lg a">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/logoo-brujas.png" alt="" class="w-50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/quiensoy.html">QuienSoy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Más
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/cursos.html">Cursos</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
     <main>
-        <h1>Quien Soy</h1>
+          <section class="py-5 quien-soy">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="../img/foto-presentacion.jpg" class="img-fluid rounded-circle mb-4" alt="Foto de perfil">
+                </div>
+                <div class="col-md-8">
+                  <h1 class="mb-3">¿Quién Soy?</h1>
+                  <p>
+                    S Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere cupiditate earum a dolor neque incidunt dignissimos est adipisci consectetur dolore distinctio, maxime explicabo obcaecati minima maiores libero rerum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore ipsum quod modi facilis, commodi minus repudiandae aliquid qui excepturi laboriosam tempora veniam similique cumque minima maxime magni. Sed, excepturi?
+                  </p>
+                  <p>
+                    M Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolores dolorum quisquam eaque blanditiis aliquid. Ad dicta aliquam odit iusto, impedit accusamus est corporis, a enim, magnam architecto laboriosam quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod repudiandae sed qui est maxime? Cum nam officiis quaerat quisquam! Dolores, fugiat voluptatem cumque quam nobis harum. Aut, a natus?
+                  <a href="./servicios.html" class="btn btn-primary mt-3">Explorar Mis Servicios</a>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <section>
-            <img src="../img/foto-presentacion.jpg" alt="Quien Soy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quos eligendi in quia et itaque ea ex,
-                alias quibusdam quisquam nisi, libero voluptates numquam neque optio quasi, illum vero. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Nisi doloremque exercitationem nihil hic. Molestias
-                quisquam iure, ipsum dolore tempora unde numquam voluptas, illum nihil maxime aliquid omnis temporibus
-                ipsam atque!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum consectetur earum facilis
-                sequi non recusandae, nihil tempore quis voluptatibus repellendus quae vel nemo itaque minus, illo, sunt
-                iure veritatis dolorem!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis itaque
-                laborum laboriosam blanditiis beatae eligendi iure modi molestiae ducimus velit corrupti quia ratione
-                cumque repudiandae, similique, necessitatibus voluptas quam incidunt.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti sed minus beatae eius corrupti,
-                mollitia quia itaque debitis odio hic quod possimus harum id, consequuntur voluptatem tempore fugit
-                minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam itaque, natus minus esse aut.
-                Ipsum totam exercitationem, ipsam provident sunt, repudiandae ex eius culpa quos ratione tempore,
-                consequuntur voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sit, amet dolor
-                expedita quis possimus quae, delectus, nihil repellat ratione cumque enim consequatur dolorum ad. Quas
-                ratione nisi corrupti modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque expedita
-                totam vel laboriosam exercitationem ex libero a? Eveniet dolore quae voluptate, dolores eligendi
-                doloribus autem quidem quaerat fugit quam?
-            </p>
-        </section>
+          <section class="py-5 p-frecuentes">
+            <div class="container">
+              <h3>Preguntas Frecuentes</h3>
+             
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"     aria-controls="collapseOne">
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lorem ipsum dolor</strong>, sit amet consectetur adipisicing elit. Dignissimos ipsum voluptatum numquam quidem iure autem adipisci eveniet modi maxime deserunt quo ea nihil eos laboriosam, pariatur obcaecati odio tempora! Expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis accusantium eius corrupti earum, reiciendis quod soluta molestiae tempore animi cumque doloribus, sequi voluptatum quae culpa, enim adipisci nesciunt quam?
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"    aria-expanded="false" aria-controls="collapseTwo">
+                       Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <strong>Lorem ipsum dolor</strong>, sit amet consectetur adipisicing elit. Dignissimos ipsum voluptatum numquam quidem iure autem adipisci eveniet modi maxime deserunt quo ea nihil eos laboriosam, pariatur obcaecati odio tempora! Expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis accusantium eius corrupti earum, reiciendis quod soluta molestiae tempore animi cumque doloribus, sequi voluptatum quae culpa, enim adipisci nesciunt quam?
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor</strong>, sit amet consectetur adipisicing elit. Dignissimos ipsum voluptatum numquam quidem iure autem adipisci eveniet modi maxime deserunt quo ea nihil eos laboriosam, pariatur obcaecati odio tempora! Expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis accusantium eius corrupti earum, reiciendis quod soluta molestiae tempore animi cumque doloribus, sequi voluptatum quae culpa, enim adipisci nesciunt quam?
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          
+         
+
     </main>
 
-    <footer>
-        <div>
-            <h4><a href="./contacto.html">Contacto</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Rem ducimus vel laborum qui architecto.
-                Quae voluptates facilis labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero itaque
-                dolorem in aliquid cumque praesentium doloribus, libero enim architecto sint, mollitia voluptate
-                molestias explicabo facilis animi quod atque consectetur?</p>
-        </div>
+    <footer class="footer">
 
-        <div>
-            <h4>Redes</h4>
-
-            <ul>
-                <li><a href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank">Facebook</a>
-                </li>
-                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                <li><a href="https://x.com/?lang=es" target="_blank">Twitter</a></li>
-            </ul>
+      <div class="container-flex d-flex p-3 ">
+        <div class="text-center col-4">
+          <p><a href="./pages/contacto.html">Contacto</a></p>
+          <ul class="d-flex justify-content-center lista-footer ">
+            <li class="lista-footer"><a href=""><i class="bi bi-whatsapp"></i></a></li>
+            <li class="lista-footer"><a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i
+                  class="bi bi-envelope-at"></i></a></li>
+          </ul>
         </div>
+  
+  
+        <div class="container text-center align-self-end col-4">
+          <p>© 2024 Cosas De Brujas</p>
+          <p>Todos los derechos reservados</p>
+        </div>
+  
+        <div class="container text-center col-4">
+          <p>CosasDeBrujas</p>
+          <p>EN LAS REDES</p>
+          <p><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> <a href="https://www.tiktok.com/" target="_blank"><i
+                class="bi bi-tiktok"></i></a></p>
+        </div>
+      </div>
     </footer>
 
 
