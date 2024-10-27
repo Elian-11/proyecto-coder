@@ -33,20 +33,74 @@ main section p{
 
 .nav-link{
     color: whitesmoke;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 10px;
 }
 .nav-link:hover{
     color: darkmagenta;
 }
 
 
-.navbar-nav{
-    color: whitesmoke;
-}
-
 .navbar-brand{
     color: whitesmoke;
     font-size: 200%;
+    font-family: serif;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: whitesmoke;
+}
+.navbar-nav .nav-link.active:hover{
+    color: darkmagenta;
+}
+
+.separacion-cartas{
+    column-gap: 30px;
+    padding: 10px;
 }
 
 
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
 
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.card img {
+    border-radius: 10px 10px 0 0;
+  }
+
+.footer {
+    background-color: darkmagenta;
+    color: #fff;
+  }
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.footer a:hover {
+    text-decoration: underline;
+  }
+
+.hero-section {
+    background-image: url('../img/ouija-fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .lista-footer{
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+ 
