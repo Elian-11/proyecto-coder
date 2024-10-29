@@ -218,4 +218,11 @@ body{
 .frase-i{
   color: whitesmoke;
 }
- 
+.btn-cont{
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+}
+.btn-cont:hover{
+  background-color: darkmagenta;
+  border: 1px solid darkmagenta;
+}
