@@ -132,7 +132,7 @@ body{
   }
   
   .quien-soy h1 {
-    color: #8016c2d3;
+    color: #7f1b9bab;
     font-size: 2.5rem;
   }
   
@@ -187,17 +187,31 @@ body{
     
   }
   
-  .btn{
+  .btn-cur{
     border: 1px solid blueviolet;
     border-radius: 10px;
     color: whitesmoke;
     background-color: rgba(125, 48, 197, 0.733);
   }
-  .btn:hover{
+  .btn-cur:hover{
     background-color: darkmagenta;
     color: whitesmoke;
   }
- 
+
+  /* SECCION SERVICIOS */
+ .serv-sect h2 {
+  color: #9c55afda;
+ }
+ .serv-sect{
+  font-size: 1.2rem;
+ }
+ .serv-sect h1{
+  color: #7f1b9bab;
+ }
+ .serv-sect p a{
+  color: rgba(141, 96, 184, 0.822);
+  text-decoration: none;
+ }
   
  
   
