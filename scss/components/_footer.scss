@@ -1,0 +1,21 @@
+// ===== SECCION FOOTER =====
+.footer {
+    background-color: darkmagenta;
+    color: whitesmoke;
+    font-size: 20px;
+
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.lista-footer {
+    list-style-type: none;
+    margin-right: 20px;
+}

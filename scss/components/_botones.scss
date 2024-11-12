@@ -1,0 +1,39 @@
+
+// =====SECCION INDEX=====
+.boton-text {
+    background-color: blueviolet;
+    border: 2px black;
+    color: rgba(245, 245, 245, 0.877);
+
+
+    &:hover {
+        background-color: whitesmoke;
+        border: 2px blueviolet;
+        color: blueviolet;
+    }
+}
+
+// ===== SECCION CURSOS VIRTUALES =====
+.btn-cur {
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgba(125, 48, 197, 0.733);
+
+
+    &:hover {
+        background-color: darkmagenta;
+        color: whitesmoke;
+    }
+}
+
+// ===== SECCION CONTACTO =====
+.btn-cont {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+
+    &:hover {
+        background-color: darkmagenta;
+        border: 1px solid darkmagenta;
+    }
+}

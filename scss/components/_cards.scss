@@ -1,0 +1,26 @@
+// ===== SECCION INDEX =====
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+    p {
+        font-size: 30px;
+        color: rgba(141, 96, 184, 0.822);
+    }
+
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    img {
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+
+.separacion-cartas {
+    column-gap: 30px;
+    padding: 10px;
+}

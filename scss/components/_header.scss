@@ -1,0 +1,37 @@
+// ===== SECCION NAVBAR =====
+.navbar {
+    background-color: blueviolet;
+
+    ul li {
+        font-size: 25px;
+    }
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 10px;
+
+
+    &:hover {
+        color: darkmagenta;
+    }
+}
+
+
+.navbar-brand {
+    color: whitesmoke;
+    font-size: 200%;
+    font-family: serif;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: whitesmoke;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: darkmagenta;
+}

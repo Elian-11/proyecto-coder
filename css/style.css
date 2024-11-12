@@ -1,228 +1,205 @@
-body{
-    background-color: rgba(231, 231, 231, 0.897);
+.hero-section {
+  background-image: url("../img/ouija-fondo.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
 }
-
-
-
-/* SECCION NAVBAR */
-.navbar{
-    background-color: blueviolet;
+.hero-section h1 {
+  font-size: 60px;
 }
-
-.navbar ul li{
+.hero-section p {
   font-size: 25px;
 }
-.nav-link{
-    color: whitesmoke;
-    font-family: "Almendra", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-right: 10px;
-}
-.nav-link:hover{
-    color: darkmagenta;
-}
 
-
-.navbar-brand{
-    color: whitesmoke;
-    font-size: 200%;
-    font-family: serif;
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: whitesmoke;
-}
-.navbar-nav .nav-link.active:hover{
-    color: darkmagenta;
-}
-
-
-/* SECCION INDEX */
-.separacion-cartas{
-    column-gap: 30px;
-    padding: 10px;
-}
-
-.hero-section {
-    background-image: url('../img/ouija-fondo.jpeg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    text-align: center;
-    color: white;
-  }
-  .hero-section h1{
-    font-size: 60px;
-  }
-  .hero-section p{
-    font-size: 25px;
-  }
-
-  .text h1{
-    text-shadow: 2px 2px 0px blueviolet;
-    color: whitesmoke;
-  }
-
-  .text p{
-    text-shadow: 1px 1px 0px blueviolet;
-    color: whitesmoke;
-  }
-
-  .boton-text{
-    background-color: blueviolet;
-    border: 2px black;
-    color:rgba(245, 245, 245, 0.877);
-  }
-  
-  .boton-text:hover{
-    background-color: whitesmoke;
-    border: 2px blueviolet;
-    color: blueviolet;
-  }
-
-
-.card p{
-  font-size: 30px;
-    color: rgba(141, 96, 184, 0.822);
-}
-
-.card {
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-  }
-
-.card:hover {
-    transform: scale(1.05);
-  }
-
-.card img {
-    border-radius: 10px 10px 0 0;
-  }
-
-
-  /* SECCION FOOTER */
-.footer {
-    background-color: darkmagenta;
-    color: whitesmoke;
-    font-size: 20px;
-  }
-
-.footer a {
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-.footer a:hover {
-    text-decoration: underline;
-  }
-
-
-.lista-footer{
-    list-style-type: none;
-    margin-right: 20px;
-  }
-
-
-  /* SECCION QUIEN SOY */
-
-  .quien-soy {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-  }
-  
-  .quien-soy h1 {
-    color: #7f1b9bab;
-    font-size: 2.5rem;
-  }
-  
-  .quien-soy p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #a32ac5ab;
-  }
-  
-  .quien-soy .btn-primary {
-    background-color: #8e24aa;
-    border-color: #8e24aa;
-    
-  }
-  
-  .quien-soy .btn-primary:hover {
-    background-color: whitesmoke;
-    color: #8e24aa;
-  }
-
-  .p-frecuentes{
-    background-color: mediumpurple;
-  }
-  .p-frecuentes h3{
-    color: whitesmoke;
-  }
-  .accordion-body{
-    background-color: whitesmoke;
-    color:rgba(141, 96, 184, 0.822) ;
-  }
-  .accordion-button{
-    color: #8e24aa;
-    background-color: whitesmoke;
-  }
-
-
-  /* SECCION CURSOS VIRTUALES */
-
-  .cursos-vir p{
-    font-size: 1rem;
-  }
-  .cursos-vir h1{
-    color: #7f1b9bab;
-  }
-  .section-1{
-    background-color: whitesmoke;
-    border-radius: 20px;
-  }
-  .section-2{
-    background-color: whitesmoke;
-    border-radius: 20px;
-    
-  }
-  
-  .btn-cur{
-    border: 1px solid blueviolet;
-    border-radius: 10px;
-    color: whitesmoke;
-    background-color: rgba(125, 48, 197, 0.733);
-  }
-  .btn-cur:hover{
-    background-color: darkmagenta;
-    color: whitesmoke;
-  }
-
-  /* SECCION SERVICIOS */
- .serv-sect h2 {
-  color: #9c55afda;
- }
- .serv-sect{
-  font-size: 1.2rem;
- }
- .serv-sect h1{
-  color: #7f1b9bab;
- }
- .serv-sect p a{
-  color: rgba(141, 96, 184, 0.822);
-  text-decoration: none;
- }
-
- /* SECCION CONTACTO */
-  
-.frase-i{
+.text h1 {
+  text-shadow: 2px 2px 0px blueviolet;
   color: whitesmoke;
 }
-.btn-cont{
+.text p {
+  text-shadow: 1px 1px 0px blueviolet;
+  color: whitesmoke;
+}
+
+body {
+  background-color: rgba(231, 231, 231, 0.897);
+}
+
+.boton-text {
+  background-color: blueviolet;
+  border: 2px black;
+  color: rgba(245, 245, 245, 0.877);
+}
+.boton-text:hover {
+  background-color: whitesmoke;
+  border: 2px blueviolet;
+  color: blueviolet;
+}
+
+.btn-cur {
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: rgba(125, 48, 197, 0.733);
+}
+.btn-cur:hover {
+  background-color: darkmagenta;
+  color: whitesmoke;
+}
+
+.btn-cont {
   background-color: blueviolet;
   border: 1px solid blueviolet;
 }
-.btn-cont:hover{
+.btn-cont:hover {
   background-color: darkmagenta;
   border: 1px solid darkmagenta;
 }
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+.card p {
+  font-size: 30px;
+  color: rgba(141, 96, 184, 0.822);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.separacion-cartas {
+  column-gap: 30px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: darkmagenta;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.footer a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.lista-footer {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.navbar {
+  background-color: blueviolet;
+}
+.navbar ul li {
+  font-size: 25px;
+}
+
+.nav-link {
+  color: whitesmoke;
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 10px;
+}
+.nav-link:hover {
+  color: darkmagenta;
+}
+
+.navbar-brand {
+  color: whitesmoke;
+  font-size: 200%;
+  font-family: serif;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: darkmagenta;
+}
+
+.frase-i {
+  color: whitesmoke;
+}
+
+.cursos-vir p {
+  font-size: 1rem;
+}
+.cursos-vir p h1 {
+  color: rgba(127, 27, 155, 0.6705882353);
+}
+
+.section-1 {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.section-2 {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.quien-soy {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+.quien-soy h1 {
+  color: rgba(127, 27, 155, 0.6705882353);
+  font-size: 2.5rem;
+}
+.quien-soy p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(163, 42, 197, 0.6705882353);
+}
+.quien-soy .btn-primary {
+  background-color: #8e24aa;
+  border-color: #8e24aa;
+}
+.quien-soy .btn-primary:hover {
+  background-color: whitesmoke;
+  color: #8e24aa;
+}
+
+.p-frecuentes {
+  background-color: mediumpurple;
+}
+.p-frecuentes h3 {
+  color: whitesmoke;
+}
+
+.accordion-body {
+  background-color: whitesmoke;
+  color: rgba(141, 96, 184, 0.822);
+}
+
+.accordion-button {
+  color: #8e24aa;
+  background-color: whitesmoke;
+}
+
+.serv-sect {
+  font-size: 1.2rem;
+}
+.serv-sect h2 {
+  color: rgba(156, 85, 175, 0.8549019608);
+}
+.serv-sect h1 {
+  color: rgba(127, 27, 155, 0.6705882353);
+}
+.serv-sect p a {
+  color: rgba(141, 96, 184, 0.822);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style-copy.css.map */
