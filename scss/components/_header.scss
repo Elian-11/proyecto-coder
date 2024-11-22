@@ -1,37 +1,60 @@
 // ===== SECCION NAVBAR =====
 .navbar {
     background-color: blueviolet;
-
+  
     ul li {
-        font-size: 25px;
+      font-size: 22px;
     }
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     color: whitesmoke;
     font-family: "Almendra", serif;
     font-weight: 400;
     font-style: normal;
     margin-right: 10px;
-
-
+    position: relative; 
+  
+    
     &:hover {
-        color: darkmagenta;
+      color: darkmagenta;
     }
-}
-
-
-.navbar-brand {
+  
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -5px; 
+      left: 0;
+      width: 0; 
+      height: 2px; 
+      background-color: whitesmoke; 
+      transition: width 0.3s ease; 
+    }
+  
+    &:hover::after {
+      width: 100%; 
+    }
+  }
+  
+ 
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: whitesmoke;
+  
+    &::after {
+      width: 100%; 
+    }
+  
+    &:hover {
+      color: darkmagenta;
+    }
+  }
+  
+  .navbar-brand {
     color: whitesmoke;
     font-size: 200%;
     font-family: serif;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-    color: whitesmoke;
-}
-
-.navbar-nav .nav-link.active:hover {
-    color: darkmagenta;
-}
+  }
+  
+ 

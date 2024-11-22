@@ -5,8 +5,10 @@
 
 
     p {
-        font-size: 30px;
-        color: rgba(141, 96, 184, 0.822);
+        font-size: 16px;
+        color: #D2B4DE;
+        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
@@ -24,3 +26,10 @@
     column-gap: 30px;
     padding: 10px;
 }
+
+.titulocard {
+    font-size: 30px;
+    color: #5B2C6F;
+    font-family: Georgia, serif;
+}
+

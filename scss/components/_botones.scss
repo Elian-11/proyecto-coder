@@ -12,18 +12,34 @@
         color: blueviolet;
     }
 }
-
+.boton-card1{
+    background-color: #8E44AD;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: background-color 0.3s;
+    border: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    
+    &:hover {
+        background-color: #6C3483;
+        color: #FFFFFF;
+    }
+}
 // ===== SECCION CURSOS VIRTUALES =====
 .btn-cur {
-    border: 1px solid blueviolet;
+    
     border-radius: 10px;
-    color: whitesmoke;
-    background-color: rgba(125, 48, 197, 0.733);
+    background-color: #8E44AD;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+    border: none;
+    font-family: Tahoma, Geneva, sans-serif;
 
 
     &:hover {
-        background-color: darkmagenta;
-        color: whitesmoke;
+        background-color: #6C3483;
+        color: #FFFFFF;
     }
 }
 
@@ -37,3 +53,4 @@
         border: 1px solid darkmagenta;
     }
 }
+
