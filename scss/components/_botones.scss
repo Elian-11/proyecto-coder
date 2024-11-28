@@ -45,12 +45,21 @@
 
 // ===== SECCION CONTACTO =====
 .btn-cont {
-    background-color: blueviolet;
-    border: 1px solid blueviolet;
+    @extend .boton-text;
 
-    &:hover {
-        background-color: darkmagenta;
-        border: 1px solid darkmagenta;
-    }
 }
 
+
+// ===== SECCION QUIEN SOY =====
+.btn-primary {
+    @extend .boton-text;
+    border: 1px solid blueviolet;
+    
+    
+
+    &:hover {
+        background-color: whitesmoke;
+        color: #8e24aa;
+        border: 1px solid #8e24aa;
+    }
+}

@@ -1,3 +1,5 @@
+$primari-color: rgba(231, 231, 231, 0.897);
+
 // ===== SECCION INDEX =====
 .hero-section {
     background-image: url('../img/ouija-fondo.jpeg');
@@ -34,6 +36,7 @@
 
 
 // ===== BODY =====
+
 body {
-    background-color: rgba(231, 231, 231, 0.897);
+    background-color: $primari-color;
 }

@@ -26,12 +26,12 @@ body {
   background-color: rgba(231, 231, 231, 0.897);
 }
 
-.boton-text {
+.boton-text, .btn-primary, .btn-cont {
   background-color: blueviolet;
   border: 2px black;
   color: rgba(245, 245, 245, 0.877);
 }
-.boton-text:hover {
+.boton-text:hover, .btn-primary:hover, .btn-cont:hover {
   background-color: whitesmoke;
   border: 2px blueviolet;
   color: blueviolet;
@@ -64,13 +64,13 @@ body {
   color: #FFFFFF;
 }
 
-.btn-cont {
-  background-color: blueviolet;
+.btn-primary {
   border: 1px solid blueviolet;
 }
-.btn-cont:hover {
-  background-color: darkmagenta;
-  border: 1px solid darkmagenta;
+.btn-primary:hover {
+  background-color: whitesmoke;
+  color: #8e24aa;
+  border: 1px solid #8e24aa;
 }
 
 .card {
@@ -226,14 +226,6 @@ body {
   font-size: 1.1rem;
   line-height: 1.8;
   color: rgba(163, 42, 197, 0.6705882353);
-}
-.quien-soy .btn-primary {
-  background-color: #8e24aa;
-  border-color: #8e24aa;
-}
-.quien-soy .btn-primary:hover {
-  background-color: whitesmoke;
-  color: #8e24aa;
 }
 
 .p-frecuentes {
